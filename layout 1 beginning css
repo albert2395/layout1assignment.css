@@ -1,0 +1,54 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+ div.container {
+border: 5px solid #bc1212;
+width: 80%;
+margin: 0 auto;
+ }
+header{
+  background-color: rgb(209, 209, 201);
+}
+
+
+.hero img {
+  width: 100%;
+}
+
+div.left, div.center, div.right {
+  border: 3px dotted  green;
+  float: left;
+  width: 30%
+  
+}
+img {
+  width: 100%
+}
+aside {
+display: flex; 
+ justify-content: space-between;
+}
+
+nav {
+background-color: dimgray;
+}
+ul {
+text-align: center;
+}
+li {
+  line-height: 2em;
+   display: inline-block;
+  width: 150px;
+  border: 2px solid darkgrey 
+}
+a{
+color: rgb(131, 10, 131);
+text-decoration: none;
+display: block;
+}
+
+
+ 
